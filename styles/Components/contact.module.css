@@ -1,0 +1,385 @@
+.container{
+  background-color: var(--black);
+
+}
+
+
+.heder{
+  background-image: url('/Resources/tubes.webp');
+  background-position: center; 
+  mix-blend-mode:normal;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  height: 13vw;  
+  font-weight: bold;
+  display: flex;
+  font-size: var(--bigheading);
+  color: var(--white);
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 16%;
+  margin:0;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-rows: 1fr;
+  max-height: 70vh;
+
+}
+
+.formContainer{
+  display: grid;
+  grid-template-columns: repeat(12, auto);
+  grid-auto-rows: auto ;
+  grid-row: 1/ span 2 ;
+  grid-column: 1 /span 12; 
+  margin: var(--defaultmargin);
+  padding-top: 5%;
+
+}
+
+.formContainer2{  
+  display: flex;
+  flex-direction: column;
+  grid-row: 1/ 1 ;
+  grid-column: 4 / span 1;
+
+
+}
+
+
+
+.formContainer3{
+  display: flex;
+  flex-direction: column;
+  grid-row: 1/ 1 ;
+  grid-column:8 / span 2;
+}
+
+.formContainer3{
+  display: flex;
+  flex-direction: column;
+  grid-row: 1/ 1 ;
+  grid-column:8 / span 2;
+}
+
+
+.formContainer4{
+  display: flex;
+  flex-direction: column;
+  grid-row: 2/2 ;
+  grid-column:4 / span 6;
+}
+
+
+.formText{
+  font-size: 2.4vw;
+  margin-top: 24px;
+}
+
+
+
+.name{
+  background: none;
+  border: none;
+  color:var(--white);
+  border-bottom: 1px solid #FAFAFA;
+  padding-bottom: 10px;
+  font-size: var(--paragraph);
+  font-family:'Satoshi','sans';
+}
+
+
+.name2{
+  background: none;
+  border: none;
+  color:var(--white);
+  border-bottom: 1px solid #FAFAFA;
+  padding-bottom: 10px;
+  font-size: var(--paragraph);
+  font-family:'Satoshi','sans';
+
+}
+
+
+.name3{
+  background: none;
+  border: none;
+  color:var(--white);
+  border-bottom: 1px solid #FAFAFA;
+  padding-bottom: 10px;
+  font-size: var(--paragraph);
+  font-family:'Satoshi','sans';
+
+
+}
+
+.name4{
+  background: none;
+  border: none;
+  color:var(--white);
+  border-bottom: 1px solid #FAFAFA;
+  padding-bottom: 10px;
+  font-size: var(--paragraph);
+  font-family:'Satoshi','sans';
+}
+
+.name4{
+  background: none;
+  border: none;
+  color:var(--white);
+  border-bottom: 1px solid #FAFAFA;
+  padding-bottom: 10px;
+  font-size: var(--paragraph);
+  font-family:'Satoshi','sans';
+
+}
+
+
+.name6{
+  background: none;
+  border: none;
+  color:#878a8b;
+  border-bottom: 1px solid #FAFAFA;
+  padding-bottom: 10px;
+  font-size: var(--paragraph);
+  font-family:'Satoshi','sans';
+}
+
+.name6:focus{
+  color:var(--white);
+}
+
+
+
+.buttonContainer{
+display: flex;
+grid-column: 6/ span 4;
+grid-row: 3/ span 3 ;
+
+
+  align-self: center;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.button{
+  font-size: var(--paragraph);
+  cursor: pointer;
+  color: var(--white);
+  background: none;
+  border: none;
+}
+
+.infotext{
+  font-size: var(--smallparagraph);
+  color: var(--grey);
+  cursor: pointer;
+}
+.selectbox{
+  position: relative;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    height: 4.2rem;
+    border-radius: 2.4rem;
+    border: 1px solid transparent;
+    background-color: #f2f2f2;
+    padding: 0.8rem 2rem;
+    outline: none;
+    font-size: 1.4rem;
+    font-weight: 400;
+    box-shadow: none;
+    color: #222;
+    line-height: 1.2;
+    background-repeat: no-repeat;
+}
+
+.iconsContainer{
+  grid-column: 1/ span 11;
+  grid-row: 3/3;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows:auto;
+   justify-self: center;
+   padding-bottom: 24px;
+   align-self: center;
+
+}
+
+
+.info1{
+  grid-column: 1/1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+
+}
+
+.info2{
+  grid-column: 2/2;
+  display: flex;
+  align-self: center;
+  align-items: center;
+justify-self: center;
+
+}
+
+.info3{
+  grid-column: 3/3;
+  cursor: pointer;
+  align-self: center;
+  display: flex;
+}
+
+.infotext3{
+  font-size: var(--smallparagraph);
+  color: var(--grey);
+  cursor: pointer;
+}
+
+
+.erorMesage{
+  color: var(--orange);
+  padding-bottom: 24px;
+  padding-top: 10px;
+  
+}
+
+.icon{
+  padding: 5px;
+ font-size: 1em;
+}
+
+.icon2{
+  padding: 5px;
+ font-size: 1em;
+}
+
+
+@media screen and (max-width: 760px) {
+
+  .heder{
+    padding: 3% 3% 3% 5%;
+    font-size: var(--bigheading);
+  }
+
+
+  .grid{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr auto;
+    max-height: 100vh;
+  
+  }
+
+  .formContainer{
+    grid-row: 1/ 1 ;
+    grid-column: 1 /span 12; 
+    margin: var(--defaultmargin);
+    margin-top: 50px;
+
+  
+  }
+
+  .formContainer2{  
+    display: flex;
+    flex-direction: column;
+    grid-row: 1/ 1 ;
+    grid-column: 1 / span 10;
+  }
+  
+  
+  
+  .formContainer3{
+    display: flex;
+    flex-direction: column;
+    grid-row: 2/ 2 ;
+    grid-column:1 / span 10;
+  }
+
+  .formContainer4{
+    display: flex;
+    flex-direction: column;
+    grid-row: 3/3 ;
+    grid-column:1 / span 10;
+  }
+  
+
+  .buttonContainer{
+    display: flex;
+    grid-column: 6/ span 5;
+    grid-row: 3/3;
+
+      align-self: center;
+      align-items: center;
+      justify-content: flex-end;
+      padding-top: 18px;
+    }
+
+    .iconsContainer{
+      grid-column: 1/ span 12;
+      grid-row:2/2;
+      display: grid;
+       justify-self: center ;
+       align-self: flex-start;
+       grid-template-columns: 1fr 1fr ;
+       grid-auto-rows: 1fr ;
+       padding: 10px;
+      
+    }
+    
+    .infotext  {
+      font-size: var(--paragraph);
+    }
+    
+    .infotext3  {
+      font-size: var(--paragraph);
+    }
+    
+
+    .info1{
+      grid-column: 1/1;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      justify-self: flex-start;
+      grid-row: 1/1;
+
+ 
+    }
+    
+    .info2{
+      grid-column: 2/2;
+      grid-row: 1/1;
+      display: flex;
+      align-self: center;
+      align-items: center;
+    justify-self: flex-start;
+ 
+    }
+    
+    .info3{
+      grid-column: 1/ span 3;
+      grid-row: 2/2;
+      padding-top: 5%;
+      align-self: flex-start;
+      justify-self: flex-start;
+      display: flex;
+    }
+
+    
+.icon{
+  padding: 5px;
+ font-size: 2rem;
+}
+.icon2{
+  padding: 5px;
+ font-size: 2rem;
+}
+  
+}

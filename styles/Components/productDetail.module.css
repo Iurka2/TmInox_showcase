@@ -1,0 +1,663 @@
+.flexCont {
+  display: flex;
+  margin: var(--defaultmargin);
+  padding-top: 10%;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 24px;
+  padding-right: 5%;
+}
+
+.flex2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 45vw;
+}
+
+.mySwiper{
+  cursor: pointer;
+  text-align: center;
+}
+
+
+.img {
+  min-width: 40vw;
+  min-height: 32vw;
+  max-width: 50vw;
+  background-color: var(--lightgrey);
+  border-radius: 5px;
+  position: relative;
+}
+
+.heading {
+  font-size: var(--medheding);
+  margin: 0;
+}
+
+.flexcolum {
+  align-items: flex-start;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 4px;
+  gap: 24px;
+}
+
+.flexcolum > p {
+  font-size: 1.7rem;
+  margin: 14px 0 14px 0;
+  padding-right: 24px;
+  font-weight: 500;
+}
+
+.tag {
+
+  background-color: var(--lightgrey);
+  color: var(--black);
+  text-align: center;
+  font-size: var(--paragraph);
+  box-shadow: 0px 2.5px 4px 0.4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.tagnone {
+display: none;
+}
+
+
+.left_side{
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+
+.divider{
+  color: var(--lightgrey);
+  width: 100%;
+}
+.pdfBIg{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pdf_container{
+  display: flex;
+  align-content: center;
+  margin-bottom: 24px;
+ 
+}
+
+.pdf{
+  font-style: italic;
+  margin-top: 10px;
+  font-size: var(--paragraph);
+  display: flex;
+  align-items: center;
+  min-width: 30vw;
+
+
+}
+
+
+.flexcolumDrop {
+  align-items: flex-start;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 24px;
+
+}
+
+.colapsee  {
+  font-size:1rem;
+
+  
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+  
+}
+
+.icon > h2 {
+margin-bottom: 24px;
+font-size: var(--subheading);
+}
+
+.icon2 {
+  order: 1;
+  align-self: center;
+  font-size: 1.5rem;
+
+}
+
+.icon3{
+  font-size:1.5rem;
+align-self: center;
+}
+
+
+
+
+.buttonContainer{
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  font-size: var(--paragraph);
+  margin-top: 5vw;
+  font-weight: 500;
+
+
+}
+
+.button{
+  font-size: var(--paragraph);
+}
+
+.table_image{
+  width: 18vw;
+  height: 10vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-color: var(--lightgrey);
+  border-radius: 5px;
+  position: relative;
+}
+
+
+
+.swiper{
+  margin: var(--defaultmargin);
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.swiper >h1{
+  font-size: var(--medheding);
+}
+
+.mySwiper3{
+ height: 100%;
+  background-color: var(--lightgrey);
+  padding: 24px 0 24px 0;
+  margin-top: 20vh;
+  position: relative;
+ 
+}
+
+.tehno_info_big_container{
+  background-color: var(--lightgrey);
+  padding: 24px 0 24px 0;
+  margin-top: 20vh;
+  position: relative;  
+}
+
+
+.tehno_info_big_container2{
+  background-color: var(--lightgrey);
+  padding: 24px 0 24px 0;
+  margin-top: 20vh;
+  position: relative;
+  max-height: 50vh;
+ 
+  
+}
+
+.tehno_info_samll_container{
+  margin: var(--smallmargin);
+  
+  
+}
+
+.tehno_info_samll_container > h2{
+  font-size: 4rem;
+}
+
+
+.tehno_info_detail{
+  display: flex;
+  align-items: flex-start;
+  gap: 10%;
+  flex-wrap: wrap ;
+  margin: 24px 0 34px 0 ;
+}
+
+
+.list > ul > li{
+  list-style: circle;
+  font-size: var(--subparagraph);
+  margin-top: -14px;
+  max-width: 30vw;
+  margin-left: 10px;
+  cursor: auto;
+}
+
+
+
+
+.big_table_container{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  margin-top: 24px; 
+}
+
+
+
+.table_container > table{
+margin-bottom: 20px;
+
+}
+
+
+.descript {
+  width: 45vw;
+  margin-top: 14px;
+}
+
+.empty{
+  display: flex;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  width: 100%;
+  font-size: var(--heading);
+
+}
+
+
+.icon4{
+  padding-top: 0.1vw;
+}
+.show_more{
+  display: flex;
+  align-items: center;
+background: none;
+border: none;
+cursor: pointer;
+font-size: 1rem;
+font-weight: 400;
+margin-top: 0;
+color: var(--grey);
+
+}
+
+
+
+.descript * {
+font-size: var(--paragraph);
+}
+
+.serii_main_container{
+  display: flex;
+  justify-content: flex-start ;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 24px;
+  padding-right: 4%;
+  margin-bottom: 24px;
+}
+
+.serii_container {
+  box-shadow: 0px 1.5px 3.5px 1.4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  width: 300px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  margin-top: 24px;
+}
+
+.serii_img{
+  position: relative;
+  width: 100%;
+  height: 24vh;
+}
+.serii_titlu{
+  font-size: var(--paragraph);
+  text-align: center;
+}
+
+.serii_tabel{
+  padding-left: 14px;
+}
+
+.srii_randment{
+  padding-left:2%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.serii_h2{
+  padding-left: 14px;
+  width: 100%;
+  margin-bottom: 14px;
+}
+
+.serii_button{
+  display: flex;
+  color: var(--grey);
+  align-items: center;
+background: none;
+border: none;
+cursor: pointer;
+font-size: var(--subparagraph);
+margin-top: 14px;
+}
+
+/* //////////////////////////////////////////////////////// */
+
+.tehno_container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.window {
+  width: 95%;
+  height: auto;
+  border-radius: 10px;
+  background: white;
+  overflow: hidden;
+  box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
+  display: flex;
+  flex-direction: column;
+
+}
+
+.top_bar {
+  background: #fdfdfd;
+  padding: 15px 5px 0;
+  border-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: 1px solid #eeeeee;
+  height: 44px;
+ 
+}
+
+.tabs {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.main_tehno {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 24px;
+ padding-left: 5%;
+ flex-wrap: wrap;
+  user-select: none;
+  background-color: var(--lightgrey);
+}
+
+.mini_tehno{
+  display: flex;
+  width: 100%;
+  gap: 10%;
+  flex-wrap: wrap;
+
+}
+
+
+.top_bar > ul li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-weight: 500;
+  font-size: var(--paragraph);
+  text-transform: uppercase;
+  
+}
+
+.tehno_lists {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+
+.tehno_li {
+  border-radius: 5px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  
+  width: 100%;
+  padding: 10px 15px;
+  position: relative;
+  background: white;
+  cursor: pointer;
+  height: 24px;
+  align-self: center;
+  text-align: center;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex: 1; 
+  user-select: none;
+}
+
+.underline {
+  position: relative;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: var(--orange);
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  background: #fff;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1040px) {
+  .flexCont {
+    display: flex;
+    flex-direction: column;
+    margin: var(--mobilemargin);
+    padding-top: 10%;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 24px;
+    padding-right: 5%;
+  }
+
+  /* .img {
+    min-width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--lightgrey);
+  } */
+
+  .img {
+  min-width:90vw ;
+  min-height: none;
+  max-width: 50vw;
+  background-color: var(--lightgrey);
+  border-radius: 5px;
+  margin-top: 5vh;
+
+}
+
+  .colapsee > li {
+    font-size: 1.4em;
+    padding-top: 10px;
+    min-width: 35vw;
+  }
+
+
+  .tehno_info_detail{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap ;
+    
+    margin: 24px 0 24px 0 ;
+  }
+  
+
+  .icon {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 24px;
+    width: 100%;
+  }
+
+  .list > ul > li{
+    list-style: circle;
+    font-size: var(--paragraph);
+    margin-top: -5px;
+    max-width: 70vw;
+    margin-left: 10px;
+  }
+  .icon > h2 {
+    margin-bottom: 10px;
+    font-size: var(--subheading);
+    }
+    .flex2 {
+      min-width: 90vw;
+    }
+
+    .descript {
+      width: 90vw;
+
+    }
+    .pdf{
+      max-width: 80vw;
+    }
+
+    .top_bar > ul li {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      font-weight: 500;
+      font-size: var(--subparagraph);
+      text-transform: uppercase;
+      
+    }
+
+    
+.heading {
+  font-size: var(--medheding);
+  margin-bottom: 5px;
+}
+
+
+    .top_bar  {
+      height: 14px;
+    }
+
+    .window {
+      width: 95%;
+      height: auto;
+      border-radius: 10px;
+      background: white;
+      
+      box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+        0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
+        0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
+      display: flex;
+      flex-direction: column;
+    
+    }
+
+    .flexcolum {
+      align-items: flex-start;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-top: 14px;
+      gap: 14px;
+    }
+
+
+    .main_tehno {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 4px;
+      flex-wrap: wrap;
+      user-select: none;
+      background-color: var(--lightgrey);
+    }
+
+    .serii_container {
+      box-shadow: 0px 1.5px 3.5px 1.4px rgba(0, 0, 0, 0.25);
+      cursor: pointer;
+      min-width: auto;
+      background-color: #f9f9f9;
+      border-radius: 5px;
+      width: 300px;
+      height: auto;
+      margin-top: 24px;
+    }
+
+    .big_table_container{
+      display: flex;
+      flex-direction: column;
+      padding-left: 5%;
+      gap:10px;
+      margin-top: 24px; 
+    }
+    
+
+    .serii_main_container{
+      gap: 14px;
+      justify-content: center;
+      margin-bottom: 14px;
+      padding-right: 0;
+    }
+    
+    .serii_container {
+      box-shadow: 0px 1.5px 3.5px 1.4px rgba(0, 0, 0, 0.25);
+      cursor: pointer;
+      width: 100px;
+      background-color: #f9f9f9;
+      border-radius: 5px;
+      margin-top: 14px;
+    }
+
+    .serii_button{
+      display: flex;
+      color: var(--grey);
+      align-items: center;
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: var(--subparagraph);
+      margin-top: 0;
+    }
+
+    .serii_img{
+      position: relative;
+      width: 100%;
+      height: auto;
+    }
+}

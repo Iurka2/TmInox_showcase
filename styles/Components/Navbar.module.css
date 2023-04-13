@@ -1,0 +1,321 @@
+.Navbar{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: var(--defaultmargin);
+  color: var(--white);
+  z-index: 99;
+  position: absolute;
+  left:0;
+  right:0;
+  top:0;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  }
+
+  @-webkit-keyframes fadeInFromNone {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeInFromNone {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeInFromNone {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInFromNone {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+
+.NavbarStick{
+  display: flex;
+  align-items: center;
+  justify-content: space-between  ;
+  padding: var(--defaultmargin);
+  color: var(--white);
+  background-color: var(--black) !important;
+  z-index: 99;
+  top:0;
+  left:0;
+  right:0;
+  padding-top: 0px;
+  height: 8vh;
+  position: fixed;
+  -webkit-animation: fadeInFromNone 0.5s ease-out;
+    -moz-animation: fadeInFromNone 0.5s ease-out;
+    -o-animation: fadeInFromNone 0.5s ease-out;
+    animation: fadeInFromNone 0.5s ease-out;
+}
+
+
+.logo{
+  cursor: pointer;
+  align-self: flex-start;
+  width: 12%;
+  padding-top: 1vh;
+  }
+  
+
+  .logo2{
+    cursor: pointer;
+    align-self: center;
+    width: 8%;
+    padding-bottom: 0px;
+    padding-top: 5px;
+
+    }
+
+
+ 
+    
+
+.linkContainer{
+flex-grow: 2;
+align-items: flex-start;
+display: flex;
+gap: 10px;
+padding-left: 122px;
+}
+
+
+
+
+
+.hederAction{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--orange);
+  color: var(--white);
+  /* border-radius: 5px; */
+  flex-grow: 1;
+  max-height: 8vh;
+  margin-top: 0;
+}
+
+
+.hederPhone{
+  font-size: var(--paragraph);
+  cursor: pointer;
+}
+
+.buttonContainer{
+display: flex;
+align-items: flex-end;
+}
+
+
+.drawer{
+  display: none;
+}
+
+
+.hederButton{
+color: var(--white);
+  background: none;
+	border: none;
+  font-size: var(--paragraph);
+  cursor: pointer;
+  font-family: "Satoshi","sans";
+  
+
+}
+
+
+
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 115%;
+  transform: scaleX(0.7);
+  height: 2.5px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--orange);
+  transform-origin: bottom left ;
+  transition: transform 0.40s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left ;
+}
+
+
+.hover-midline-animation {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+
+}
+
+.hover-midline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2.5px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--orange);
+  transform-origin: bottom  ;
+  transition: transform 0.30s ease-out;
+}
+
+.hover-midline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom  ;
+}
+
+
+.hover-midline-animation2 {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+
+}
+
+.hover-midline-animation2:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1.5px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--white);
+  transform-origin: bottom  ;
+  transition: transform 0.30s ease-out;
+}
+
+.hover-midline-animation2:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom  ;
+}
+
+.DrawerTop{
+  background-image: url('/Resources/tubes.png');
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  width: 100%;
+  height: 220px;
+  font-size: var(--heading);
+  font-weight: bold;
+  display: flex;
+  
+}
+
+.DrawerTopText{
+  align-self:center;
+  padding-left: 45px;
+}
+
+
+@media screen and (max-width: 1250px) {
+
+  .Navbar{
+    justify-content: space-around;
+    
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 830px) {
+
+
+  .Navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   padding: 12px;
+   padding-top:10px;
+   height: auto;
+    }
+
+    .logo{
+      width: 40%;
+      padding-bottom: 0;
+
+      }
+
+      .logo2{
+        min-width: 100px;
+        padding-bottom: 0;
+        padding-top: 4px;
+        }
+      
+  .links{
+    display: none;
+  }
+
+  .hederAction{
+    display: none;
+  }
+
+}

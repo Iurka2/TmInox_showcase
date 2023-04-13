@@ -1,0 +1,102 @@
+
+.topAllContainer{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: 10vh;
+  background-color: var(--black);
+  justify-content: center;
+  align-items: flex-end;
+  
+  }
+
+  .images{
+    position: relative;
+
+  }
+
+  
+  .topContainer{
+    grid-column: 1/ span 6 ;
+    grid-row: 1 /  span 10 ;
+  align-self: flex-start;
+width: 100%;
+height: 100%;
+overflow: "hidden"
+
+}
+  
+  
+
+  
+
+  .topTextContainer{
+  grid-column:1 / span 6 ;
+  grid-row: 1 / span 10 ;
+  justify-self: center ;
+  align-self: center;
+  z-index: 0  ;
+  text-transform: uppercase;
+  color: var(--white);
+  margin: var(--defaultmargin);
+
+  }
+  
+  
+  
+  .topText{
+    font-size: var(--hugetext);
+    margin: 0;
+    font-weight: 500;
+  }
+
+  .icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-column:1 / span 6 ;
+    grid-row: 1 / span 10 ;
+    justify-self: center ;
+    align-self: flex-end;
+    z-index: 0  ;
+    text-transform: uppercase;
+    color: var(--white);
+    margin: var(--defaultmargin);
+    font-size: var(--paragraph);
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+
+  .icon2{
+    font-size: var(--paragraph);
+  }
+
+  .icon3{
+    font-size: var(--heading);
+  }
+.topAllContainerMobile{
+  display: none;
+}
+
+
+
+  @media screen and (max-width: 830px) {
+
+
+
+    .topTextContainer{
+      grid-column:1 / span 6 ;
+      grid-row: 1/ span 10;
+      justify-self: center ;
+      align-self: center;
+      color: var(--white);
+      margin: var(--mobilemargin);
+      }
+  
+
+
+      .icon{
+
+        font-size: var(--medheding);
+     
+      }
+  }
